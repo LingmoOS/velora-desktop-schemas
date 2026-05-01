@@ -27,7 +27,7 @@ You can also check the "Build-Depends" provided in the debian/control file.
 
 2. Build:
 ```
-$ cd deepin-desktop-schemas
+$ cd velora-desktop-schemas
 $ make
 ```
 

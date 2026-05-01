@@ -1,8 +1,8 @@
 #!/bin/sh
-# postinst script for deepin-desktop-schemas
+# postinst script for velora-desktop-schemas
 
 set -e
-data_dir=/usr/share/deepin-desktop-schemas
+data_dir=/usr/share/velora-desktop-schemas
 gschemas_dir=/usr/share/glib-2.0/schemas
 app_store_dir=/usr/share/deepin-app-store
 app_store_ini_file=$app_store_dir/settings.ini

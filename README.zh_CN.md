@@ -27,7 +27,7 @@ gsettings项目
 
 2. 构建
 ```
-$ cd deepin-desktop-schemas
+$ cd velora-desktop-schemas
 $ make
 ```
 
@@ -44,7 +44,7 @@ $ sudo make install
 * [官方论坛](https://bbs.deepin.org/) 
 * [开发者中心](https://github.com/linuxdeepin/developer-center/issues) 
 * [Wiki](https://wiki.deepin.org/)
-* [项目地址](https://github.com/linuxdeepin/deepin-desktop-schemas) 
+* [项目地址](https://github.com/linuxdeepin/velora-desktop-schemas) 
 
 ## 贡献指南
 

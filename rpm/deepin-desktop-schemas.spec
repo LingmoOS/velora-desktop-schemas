@@ -3,12 +3,12 @@
 %define specrelease 1
 %endif
 
-Name:           deepin-desktop-schemas
+Name:           velora-desktop-schemas
 Version:        5.9.7
 Release:        %{specrelease}
 Summary:        GSettings deepin desktop-wide schemas
 License:        GPLv3
-URL:            https://github.com/linuxdeepin/deepin-desktop-schemas
+URL:            https://github.com/linuxdeepin/velora-desktop-schemas
 Source0:        %{name}-%{version}.tar.xz
 
 Provides:       deepin-default-gsettings
@@ -26,7 +26,7 @@ BuildRequires:  go-lib-devel
 Requires:  deepin-desktop-base
 
 %description
-deepin-desktop-schemas contains a collection of GSettings schemas for
+velora-desktop-schemas contains a collection of GSettings schemas for
  settings shared by various components of a desktop.
 
 %prep
@@ -49,7 +49,7 @@ export GOPATH=/usr/share/gocode
 make test
 
 %post
-data_dir=/usr/share/deepin-desktop-schemas
+data_dir=/usr/share/velora-desktop-schemas
 gschemas_dir=/usr/share/glib-2.0/schemas
 app_store_dir=/usr/share/deepin-app-store
 app_store_ini_file=$app_store_dir/settings.ini
@@ -95,7 +95,7 @@ esac
 %license LICENSE
 %{_datadir}/glib-2.0/schemas/*
 %{_datadir}/deepin-app-store/*
-%{_datadir}/deepin-desktop-schemas/*
+%{_datadir}/velora-desktop-schemas/*
 %{_datadir}/deepin-appstore/*
 
 %changelog

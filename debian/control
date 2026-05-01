@@ -1,13 +1,15 @@
-Source: deepin-desktop-schemas
+Source: velora-desktop-schemas
 Section: misc
 Priority: optional
-Maintainer: Deepin Sysdev <sysdev@deepin.com>
-Build-depends: debhelper (>= 9), libglib2.0-bin,
- golang-go, golang-github-linuxdeepin-go-lib-dev
-Standards-Version: 3.9.5
-Homepage: https://github.com/linuxdeepin/deepin-desktop-schemas
+Maintainer: Lingmo OS Team <team@lingmo.org>
+Build-depends: debhelper (>= 9), 
+               libglib2.0-bin,
+               golang-go,
+               golang-github-linuxdeepin-go-lib-dev
+Standards-Version: 4.5.0
+Homepage: https://github.com/LingmoOS/velora-desktop-schemas
 
-Package: deepin-desktop-schemas
+Package: velora-desktop-schemas
 Section: misc
 Architecture: any
 Depends: ${misc:Depends},
@@ -20,5 +22,5 @@ Breaks: dde-daemon (<< 2.92.2),
         deepin-wm (<< 0.2.1),
         deepin-default-gsettings
 Description: GSettings deepin desktop-wide schemas
- deepin-desktop-schemas contains a collection of GSettings schemas for
+ velora-desktop-schemas contains a collection of GSettings schemas for
  settings shared by various components of a desktop.

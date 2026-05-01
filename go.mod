@@ -1,4 +1,4 @@
-module deepin-desktop-schemas
+module velora-desktop-schemas
 
 go 1.15
 

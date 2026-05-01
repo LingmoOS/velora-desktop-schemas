@@ -1,19 +1,19 @@
 # Maintainer: justforlxz <justforlxz@gmail.com>
-pkgname=deepin-desktop-schemas-git
+pkgname=velora-desktop-schemas-git
 pkgver=5.10.2.r8.gd9e09d5
 pkgrel=1
-sourcename=deepin-desktop-schemas
+sourcename=velora-desktop-schemas
 sourcetars=("$sourcename"_"$pkgver".tar.xz vendor.tar.gz)
 sourcedir="$sourcename"
 useforobs=1
 pkgdesc='GSettings deepin desktop-wide schemas'
 arch=('any')
-url="https://github.com/linuxdeepin/deepin-desktop-schemas"
+url="https://github.com/linuxdeepin/velora-desktop-schemas"
 license=('GPL3')
-depends=('dconf' 'deepin-gtk-theme-git' 'deepin-icon-theme-git' 'deepin-sound-theme-git')
+depends=('dconf' 'velora-gtk-theme-git' 'deepin-icon-theme-git' 'deepin-sound-theme-git')
 makedepends=('git' 'python' 'go')
-conflicts=('deepin-artwork-themes' 'deepin-desktop-schemas')
-provides=('deepin-desktop-schemas')
+conflicts=('deepin-artwork-themes' 'velora-desktop-schemas')
+provides=('velora-desktop-schemas')
 groups=('deepin-git')
 source=("${sourcetars[@]}")
 sha512sums=('SKIP' 'SKIP')

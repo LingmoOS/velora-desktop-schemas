@@ -1,7 +1,7 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: deepin-desktop-schemas
+Upstream-Name: velora-desktop-schemas
 Upstream-Contact: UnionTech Software Technology Co., Ltd. <>
-Source: https://github.com/linuxdeepin/deepin-desktop-schemas
+Source: https://github.com/linuxdeepin/velora-desktop-schemas
 
 # ci
 Files: .github/* .gitlab-ci.yml .obs/*

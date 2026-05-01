@@ -25,8 +25,8 @@ install:
 	mkdir -p $(DESTDIR)$(PREFIX)/share/glib-2.0/schemas
 	install -v -m 0644 result/*.xml $(DESTDIR)$(PREFIX)/share/glib-2.0/schemas/
 	install -v -m 0644 result/*.override $(DESTDIR)$(PREFIX)/share/glib-2.0/schemas/
-	mkdir -p $(DESTDIR)$(PREFIX)/share/deepin-desktop-schemas
-	install -v -m 0644 result/*-override $(DESTDIR)$(PREFIX)/share/deepin-desktop-schemas
+	mkdir -p $(DESTDIR)$(PREFIX)/share/velora-desktop-schemas
+	install -v -m 0644 result/*-override $(DESTDIR)$(PREFIX)/share/velora-desktop-schemas
 
 	mkdir -p $(DESTDIR)$(PREFIX)/share/deepin-appstore/
 	install -v -m 0644 deepin-appstore/$(ARCH)/settings.ini $(DESTDIR)$(PREFIX)/share/deepin-appstore/
