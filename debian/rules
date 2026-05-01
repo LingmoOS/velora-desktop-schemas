@@ -30,7 +30,7 @@ export ARCH
 
 ifeq ($(SYSTYPE), Professional)
 override_dh_gencontrol:
-	dh_gencontrol -- -Vdist:Depends="deepin-desktop-base"
+	dh_gencontrol -- -Vdist:Depends="lingmo-desktop-base"
 endif
 
 ifeq ($(SYSTYPE), Server)

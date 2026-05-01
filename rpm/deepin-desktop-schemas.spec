@@ -19,11 +19,11 @@ BuildArch:     noarch
 BuildRequires:  golang
 BuildRequires:  glib2
 BuildRequires:  gocode
-BuildRequires:  deepin-desktop-base
+BuildRequires:  lingmo-desktop-base
 BuildRequires:  go-lib-devel
 
 
-Requires:  deepin-desktop-base
+Requires:  lingmo-desktop-base
 
 %description
 velora-desktop-schemas contains a collection of GSettings schemas for
