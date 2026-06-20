@@ -9,7 +9,7 @@ Release:        %{specrelease}
 Summary:        GSettings deepin desktop-wide schemas
 License:        GPLv3
 URL:            https://github.com/linuxdeepin/velora-desktop-schemas
-Source0:        %{name}-%{version}.tar.xz
+Source0:        velora-desktop-schemas-%{version}.tar.gz
 
 Provides:       deepin-default-gsettings
 Obsoletes:      deepin-default-gsettings
