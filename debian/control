@@ -1,15 +1,15 @@
-Source: velora-desktop-schemas
+Source: lingmo-desktop-schemas
 Section: misc
 Priority: optional
 Maintainer: Lingmo OS Team <team@lingmo.org>
 Build-depends: debhelper (>= 9), 
                libglib2.0-bin,
                golang-go,
-               golang-github-linuxdeepin-go-lib-dev
+               golang-github-lingmo-go-lib-dev
 Standards-Version: 4.5.0
-Homepage: https://github.com/LingmoOS/velora-desktop-schemas
+Homepage: https://github.com/LingmoOS/lingmo-desktop-schemas
 
-Package: velora-desktop-schemas
+Package: lingmo-desktop-schemas
 Section: misc
 Architecture: any
 Depends: ${misc:Depends},
@@ -17,10 +17,10 @@ Depends: ${misc:Depends},
          ${dist:Depends}
 Conflicts: deepin-default-gsettings
 Replaces: deepin-default-gsettings
-Breaks: dde-daemon (<< 2.92.2),
+Breaks: lingmo-daemon (<< 2.92.2),
         startdde (<< 2.91.0),
         deepin-wm (<< 0.2.1),
         deepin-default-gsettings
 Description: GSettings deepin desktop-wide schemas
- velora-desktop-schemas contains a collection of GSettings schemas for
+ lingmo-desktop-schemas contains a collection of GSettings schemas for
  settings shared by various components of a desktop.

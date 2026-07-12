@@ -13,7 +13,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/linuxdeepin/go-lib/keyfile"
+	"github.com/LingmoOS/golang-github-lingmo-go-lib/keyfile"
 )
 
 var optArch string
