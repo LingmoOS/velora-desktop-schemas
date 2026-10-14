@@ -1,3 +1,12 @@
+velora-desktop-schemas (6.0.16.lingmo5u1) unstable; urgency=medium
+
+  * fix: 默认图标主题由 bloom 改为 Lingmo
+    - com.deepin.dde.appearance 的 icon-theme 默认值
+    - com.deepin.xsettings 的 icon-theme-name 默认值
+    - com.deepin.wrap.gnome.desktop.interface 的 icon-theme（GTK 应用走这条）
+    - 光标主题(cursor-theme)未改，仍为 bloom
+ -- Lingmo OS Team <team@lingmo.org>  Wed, 14 Oct 2026 16:39:57 +0800
+
 velora-desktop-schemas (6.0.15.lingmo.1) unstable; urgency=medium
 
   * new release for Lingmo OS.
