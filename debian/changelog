@@ -1,3 +1,17 @@
+velora-desktop-schemas (6.0.17.lingmo5u1) unstable; urgency=medium
+
+  * fix: GTK 侧的默认图标主题真正改为 Lingmo
+    上一版（6.0.16.lingmo5u1）声称同时改了
+    com.deepin.wrap.gnome.desktop.interface 的 icon-theme，但该文件里的值实际仍是
+    'Adwaita'（那次替换没有生效）。GTK 应用与桌面走的是这条 schema，因此默认图标主题
+    依旧不是 Lingmo，用户必须在控制中心手动点一次 "Lingmo" 才会应用。
+    本次把该默认值改为 'Lingmo'。
+    com.deepin.dde.appearance 的 icon-theme 与 com.deepin.xsettings 的
+    icon-theme-name 保持 'Lingmo'（上一版已生效）。
+    注：光标主题仍为 bloom，未在本次改动范围内。
+
+ -- Lingmo OS Team <team@lingmo.org>  Thu, 15 Oct 2026 19:51:33 +0800
+
 velora-desktop-schemas (6.0.16.lingmo5u1) unstable; urgency=medium
 
   * fix: 默认图标主题由 bloom 改为 Lingmo
