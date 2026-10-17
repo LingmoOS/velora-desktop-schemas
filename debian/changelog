@@ -1,3 +1,9 @@
+velora-desktop-schemas (6.0.18.lingmo5u1) unstable; urgency=medium
+
+  * gschema 默认图标主题改为 lingmo（icon-theme / icon-theme-name / wrap interface）。
+
+ -- Lingmo OS Team <team@lingmo.org>  Sat, 17 Oct 2026 22:49:46 +0800
+
 velora-desktop-schemas (6.0.17.lingmo5u1) unstable; urgency=medium
 
   * fix: GTK 侧的默认图标主题真正改为 Lingmo
