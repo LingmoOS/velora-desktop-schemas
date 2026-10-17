@@ -83,7 +83,7 @@
       </description>
     </key>
     <key name="icon-theme" type="s">
-      <default>'Lingmo'</default>
+      <default>'lingmo'</default>
       <summary>Icon Theme</summary>
       <description>
         Icon theme to use for the panel, nautilus etc.
